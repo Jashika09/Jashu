@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+<div class="row">
+<div class="col-md-8 col-md-offset-2">
+<table class="table">
+<tr>
+<th>First name</th>
+<th>Last name</th>
+<th>Email</th>
+<th>Username</th>
+</tr>
+
+
+{% for con in object_list %}
+<tr>
+<td>{{ con.first_name }}</td>
+<td>{{ con.last_name }}</td>
+<td>{{ con.email }}</td>
+<td>{{ con.username }}</td>
+</tr>
+
+
+{% endfor %}
+</table>
+</div>
+</div>
+
+{% endblock %}

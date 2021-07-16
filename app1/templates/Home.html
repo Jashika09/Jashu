@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+<div id="gal" class="col-md-12">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="{% static 'images/pexels-photo-357743.jpg' %}" >
+    </div>
+
+    <div class="item">
+        <img src="{% static 'images/pexels-photo-175753.jpeg' %}" >
+    </div>
+
+    <div class="item">
+        <img src="{% static 'images/pexels-photo-2113556.jpeg' %}" >
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+<div id="image" class="col-md-12 text-center "><h3><b><ins>Why Tasty Tiffen Service</ins></b></h3><br>
+<div class="col-md-8 col-md-offset-2">
+    <div id="ifrst" class="col-md-4">
+        <img src="{% static 'images/phone-call.svg'%}"  height="50px" width="50px"/>
+        <h5><b> Order by call/web</b></h5></div>
+    <div id="isecond" class="col-md-4">
+        <img src="{% static 'images/handshake.svg'%}" height="50px" width="50px"/>
+        <h5><b>Happy and Trusted customer</b></h5></div>
+    <div id="ithird" class="col-md-4">
+        <img src="{% static 'images/like.svg'%}" height="50px" width="50px"/>
+        <h5><b>World's best tiffen service</b></h5></div>
+</div>
+
+</div>
+
+<div id="image2" class="col-md-12 text-center">
+<div class="col-md-8 col-md-offset-2">
+    <div id="ifrt" class="col-md-4">
+        <img src="{% static 'images/meal.png'%}" height="50px" width="50px"/>
+        <h5><b>Fresh and quality ingredients</b></h5></div>
+    <div id="isec" class="col-md-4">
+        <img src="{% static 'images/loader.svg'%}" height="50px" width="50px" />
+        <h5><b>Free home delivery</b></h5></div>
+    <div id="itrd" class="col-md-4">
+        <img src="{% static 'images/cooking.svg'%}" height="50px" width="50px"/>
+        <h5><b>Home like food</b></h5></div>
+</div>
+</div>
+
+
+
+
+
+<div id="footer" class="col-md-12" >
+<img src="{% static 'images/pexels-photo-958545.jpeg'%}" style="height:270px" width="24%"  class="img-thumbnail"/>
+<img src="{% static 'images/photo-1505253758473-96b7015fcd40.jpg'%} " style="height:270px" width="24%"  class="img-thumbnail"/>
+<img src="{% static 'images/FotoJetcoverindianrest.jpg'%}"  style="height:270px" width="25%"  class="img-thumbnail"/>
+<img src="{% static 'images/pexels-photo-941869.jpeg'%}"  style="height:270px" width="25%"  class="img-thumbnail"/>
+</div>
+
+<div id="foot" class="col-md-12 text-center">
+<h1 style="color:#FF0000"><b> What our customer say</b></h1>
+<div class="col-md-6 col-md-offset-3 text-center">
+<div class=" slider">
+<div  id="foot1">
+<img src="{% static 'images/smile.svg' %} " height="60px" width="100px" style="margin-top:20px"/><br><br>
+<img src="{% static 'images/78313.svg' %} " height="40px" width="40px" /><br>
+<h3>Jashika</h3><br>
+<p style="font-family:Comic Sans MS">Your food is fresh,properly prepared and a great value for the price.</p>
+</div>
+<div  id="foot1">
+<img src="{% static 'images/smile.svg' %} " height="60px" width="100px" style="margin-top:20px"/><br><br>
+<img src="{% static 'images/78313.svg' %} " height="40px" width="40px" /><br>
+<h3>Diljot</h3><br>
+<p style="font-family:Comic Sans MS">Your food is fresh,properly prepared and a great value for the price.</p>
+</div>
+<div  id="foot1">
+<img src="{% static 'images/smile.svg' %} " height="60px" width="100px" style="margin-top:20px"/><br><br>
+<img src="{% static 'images/78313.svg' %} " height="40px" width="40px" /><br>
+<h3>Dishika</h3><br>
+<p style="font-family:Comic Sans MS">Your food is fresh,properly prepared and a great value for the price.</p>
+</div>
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+{% endblock %}

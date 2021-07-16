@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+<div id="cont" class="col-md-12">
+ <div id="conlft" class="col-md-5">
+ <h1 style="color:red">CONTACT US:</h1><br />
+ <h4 style="color:#FFFFFF">Phone No: 7508611791<br /><br />
+ Email: jashika134@gmail.com<br /><br />
+ Address: #33369,partap nagar,street:9A</h4>
+ </div>
+ 
+    <div id="conryt" class="col-md-7">
+    <h1 style="font-family:Monotype Corsiva"><b>YOUR FEEDBACK MATTERS</b></h1><br />
+    <form onsubmit="f()" action="" method="post">
+    {% csrf_token %}
+    
+    <label>Name</label><span style="color:#FF0000">*</span>
+        <input type="text" class="form-control" required name="name"/><br>
+        <label>Last Name</label>
+        <input type="text" class="form-control" name="lastname"  /><br>
+        <label>Email Id</label><span style="color:#FF0000">*</span>
+        <input type="email" class="form-control" placeholder="enter your email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" name="emailid"/><br>
+        <label>Feedback</label><br />
+        <textarea rows="4" cols="99" name="feedback"></textarea><br /><br />
+        <center><input type="submit" class="btn btn-danger" id="t1" value="submit"  /></center>
+        </form>
+    </div>
+</div>
+<script>
+function f()
+{
+var x=document.getElementById("t1").value;
+if(x=="submit")
+{
+alert("Thanks for feedback");
+}
+else
+{
+alert("please give your feedback");
+}
+}
+</script>
+{% endblock %}
+

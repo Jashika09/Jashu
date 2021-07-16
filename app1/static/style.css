@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+#head{  background:rgba(255,0,0,0.7);}
+#hright button{ margin-top:20px;}
+#hlft img{ margin-left:10px;}
+#hlft h2{  font-family:Georgia, "Times New Roman", Times, serif; color:#000000;}
+#hright a{ color:#000000; margin-top:10px; font-weight:bold;}
+#hright a:hover{ color:#FF0000; }
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img { height:590px; width:100%;}
+#image2{ padding:30px;  }
+#image h3{ margin-top:40px; margin-bottom:30px; color:#FF0000;}
+#foot1{ border:2px solid grey; }
+#footer{ padding:20px 0px 20px 0px;}
+#footer1{ border-top:3px dashed black; background:rgba(255,0,0,0.7);}
+#foot{ padding-bottom:20px;}
+#foot h1{ font-family:Monotype Corsiva;}
+#hleft{}
+#hmid{ padding-top:40px;}
+#hryt{ padding-top:40px;}
+#final{ background:rgba(0,0,0,0.3);}
+#final h3{ color:#FFFFFF;}
+#final h5{ color:#FFFFFF;}
+#hmid a{ color:#CCCCCC;}
+#hmid a:hover{ color:#FF0000;}
+#footer{ padding-left:10px;}
+
+
+
+
+/* About page stylesheet */
+#abou{ padding-left:30px; padding-top:110px; }
+#menu1{ padding-top:30px; padding-bottom:40px;}
+#menu1 .panel-default>.panel-heading { background:rgba(0,0,0,0.3);}
+#menu1 a:-webkit-any-link { color:#FFFFFF;}
+#menu1 h2{ font-family:Georgia; padding-bottom:30px;}
+#Sunday h6{ color:#FF0000; padding-bottom:15px;}
+#Monday h5{ color:black; padding-bottom:15px;}
+#Monday h6{ color:red; padding-bottom:15px;}
+#Tuesday h6{ color:#FF0000; padding-bottom:15px;}
+#Wednesday h6{ color:#FF0000; padding-bottom:15px;}
+#Thursday h6{ color:#FF0000; padding-bottom:15px;}
+#Friday h6{ color:#FF0000; padding-bottom:15px;}
+#Saturday h6{ color:#FF0000; padding-bottom:15px;}
+#Sunday h5{ padding-bottom:12px;}
+#Monday h5{ padding-bottom:12px;}
+#Tuesday h5{ padding-bottom:12px;}
+#Wednesday h5{ padding-bottom:12px;}
+#Thursday h5{ padding-bottom:12px;}
+#Friday h5{ padding-bottom:12px;}
+#Saturday h5{ padding-bottom:12px;}
+
+
+/* Services stylesheet */
+
+#divide h2{ font-family:Georgia, "Times New Roman", Times, serif;}
+.table td{ font-size:12px;}
+.table th{ font-size:15px;}
+.totaldiv{ background:rgba(0,0,0,0.6); color:#fff;}
+#service{ padding:80px;}
+divide{ padding-bottom:80px;}
+
+
+
+/* contact Stylesheet */
+
+#conlft{ padding:180px;}
+#conryt{ padding:100px;}
+#conryt h1{ color:red;}
